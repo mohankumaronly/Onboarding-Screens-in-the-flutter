@@ -1,19 +1,19 @@
-import 'package:onbording_screens/onboarding/models/onboarding_model.dart';
+import 'package:onbording_screens/onboarding/model/onboarding_model.dart';
 
-List<OnboardingModel> onboardingPages = [
-  OnboardingModel(
-    image: 'assets/images/sample1.jpg',
-    title: 'Welcome',
-    description: 'Welcome to our awesome app!',
+final List<OnboardingPageModel> onboardingPages = [
+  OnboardingPageModel(
+    imagePath: 'assets/images/sample1.jpg', // Make sure to add these images
+    title: 'Welcome to Our App!',
+    description: 'Discover amazing features and simplify your life.',
   ),
-  OnboardingModel(
-    image: 'assets/images/sample1.jpg',
-    title: 'Discover',
-    description: 'Explore features to boost productivity.',
+  OnboardingPageModel(
+    imagePath: 'assets/images/sample1.jpg',
+    title: 'Explore New Horizons',
+    description: 'Find new interests and connect with like-minded people.',
   ),
-  OnboardingModel(
-    image: 'assets/images/sample1.jpg',
-    title: 'Get Started',
-    description: 'Let’s get started!',
+  OnboardingPageModel(
+    imagePath: 'assets/images/sample1.jpg',
+    title: 'Get Started Today',
+    description: 'Join our community and embark on an exciting journey.',
   ),
 ];
